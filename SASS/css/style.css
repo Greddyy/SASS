@@ -1,0 +1,44 @@
+/*Kintamieji*/
+.button, section ul li a {
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 2px; }
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  background-color: aqua;
+  border-radius: 100px; }
+
+header {
+  background-color: #ddff99;
+  height: 150px; }
+  header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 110px; }
+
+section {
+  padding: 10px;
+  background-color: #FF5733;
+  border-radius: 100px; }
+  section h2 {
+    text-align: center; }
+  section ul li {
+    list-style: none;
+    padding: 5px;
+    margin: 5px 0;
+    width: 97%;
+    background-color: #61FF33; }
+    section ul li a {
+      text-decoration: none;
+      color: #000; }
+      section ul li a:hover {
+        color: #ee8899; }
+    section ul li span {
+      float: right; }
+
+footer {
+  background-color: #33BBFF; }
+
+/*# sourceMappingURL=style.css.map */

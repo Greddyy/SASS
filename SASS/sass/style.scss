@@ -1,0 +1,54 @@
+@import 'var';
+@import 'components';
+@import 'mixins';
+.container {
+  margin: 0 auto;
+  width: 80%;
+  background-color: aqua;
+  @include rounded(100px);
+}
+
+header {
+  background-color: $HeaderBackground;
+  height: 150px;
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 110px;
+  }
+}
+
+section {
+  padding: 10px;
+  background-color: $SectionBackground;
+  @include rounded(100px);
+  h2{
+    text-align:center;
+  }
+  ul {
+    li{
+      list-style:none;
+      padding:5px;
+      margin:5px 0;
+      width: 97%;
+      background-color: $LiBackground;
+      a{
+        text-decoration:none;
+        color:#000;
+        @extend .button;
+        &:hover{
+          color:#ee8899;
+        }
+      }
+      span {
+        float:right;
+      }
+    }
+
+  }
+}
+footer {
+
+    background-color: $FooterBackground;
+
+}
